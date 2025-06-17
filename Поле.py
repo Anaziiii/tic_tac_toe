@@ -1,16 +1,17 @@
 import pygame as pg
 import sys
-WIDTH, HEIGHT = 400, 400
-BOARD_SIZE = 3 
-CELL_SIZE = WIDTH // BOARD_SIZE 
-WHITE = (255, 255, 255) 
-BLACK = (0, 0, 0)        
-LINE_COLOR = (50, 50, 50) 
+Width, height = 400, 400
+Board_size = 3 
+Cell_size = Width // Board_size 
+white = (255, 255, 255) 
+Black = (0, 0, 0)        
+Line_color = (50, 50, 50) 
 pg.init()
-screen = pg.display.set_mode((WIDTH, HEIGHT))
+screen = pg.display.set_mode((Width, height))
 pg.display.set_caption("Хрестики-Нулики")
 def draw_grid():
-    screen.fill(WHITE)
+    screen.fill(white)
+running = True
 while running:
     for event in pg.event.get():
         if event.type == pg.QUIT:
