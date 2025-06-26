@@ -11,4 +11,4 @@ def check_winer():
         return board[0][2]
     if all(cell for row in board for cell in row):
         return 'нічия'
-    return None
+    return Non3
