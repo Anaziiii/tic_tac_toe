@@ -9,3 +9,6 @@ def check_winer():
         return board[0][0]
     if board[0][2] == board[1][1] == board[2][0] and board[0][2]:
         return board[0][2]
+    if all(cell for row in board for cell in row):
+        return 'нічия'
+    return None
