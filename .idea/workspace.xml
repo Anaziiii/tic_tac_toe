@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b83818d2-774a-4b11-b9d4-e8f9e7d72139" name="Changes" comment="2 kod">
-      <change afterPath="$PROJECT_DIR$/board.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrova_lohika.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Поле.py" beforeDir="false" />
-    </list>
+    <list default="true" id="b83818d2-774a-4b11-b9d4-e8f9e7d72139" name="Changes" comment="2 kod" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
